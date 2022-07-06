@@ -1,0 +1,16 @@
+{
+    "sp_ps_call_log": {
+        "column": {
+            "entity_id": true,
+            "sku": true,
+            "response_status": true,
+            "quantity": true,
+            "error_message": true,
+            "created_at": true,
+            "updated_at": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

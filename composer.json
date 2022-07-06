@@ -1,0 +1,18 @@
+{
+    "name": "salvopruiti/magento2-product-sync",
+    "description": "Product Sync From External Source",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SalvoPruiti\\ProductSync\\": ""
+        }
+    },
+    "version": "1.0.0"
+}
